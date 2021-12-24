@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="style/pay.css">
   <link rel="stylesheet" href="style/option-pay.css">
   <link rel="stylesheet" href="style/footer.css">
-  
+  <script src="script/burger.js" defer></script>
 </head>
 <body>
   <header class="header">
@@ -46,19 +46,19 @@
     <button class="burger header__burger">
       <span class="burger__line"></span>
     </button>
-    <nav class="header__navigation navigation navigation_active">
+    <nav class="header__navigation navigation">
       <ul class="navigation__list">
         <li class="navigation__item">
-          <a href="" class="navigation__link">Пихта Фразера</a>
+          <a href="#one" class="navigation__link">Пихта Фразера</a>
         </li>
         <li class="navigation__item">
-          <a href="" class="navigation__link">Русская ель</a>
+          <a href="#two" class="navigation__link">Русская ель</a>
         </li>
         <li class="navigation__item">
-          <a href="" class="navigation__link">Сибирская пихта</a>
+          <a href="#three" class="navigation__link">Сибирская пихта</a>
         </li>
         <li class="navigation__item">
-          <a href="" class="navigation__link">Как оплатить?</a>
+          <a href="#pay" class="navigation__link">Как оплатить?</a>
         </li>
       </ul>
     </nav>
@@ -143,7 +143,7 @@
         <img src="images/siberian-fir.jpg" width='630' height='590' alt="Пихта Фразера" class="product__picture">
       </div>
     </section>
-    <section class="pay">
+    <section class="pay" id="pay">
       <div class="container">
         <h2 class="pay__title">Как можно оплатить</h2>
         <ul class="pay__list">

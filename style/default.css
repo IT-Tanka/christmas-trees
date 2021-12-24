@@ -3,15 +3,16 @@
   font-weight: 700;
   src: 
   local("Cormorant-bold"), local("Cormorant"), 
-  url("../fonts/cormorant-v11-latin_cyrillic-700.woff2")format ("woff2"), 
+  url("../fonts/cormorant-v11-latin_cyrillic-700.woff2") format ("woff2"), 
   url("../fonts/cormorant-v11-latin_cyrillic-700.woff") format ("woff");
   
   font-display: swap;
 }
 html{
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-*, *::after, *::befor{
+*, *::after, *::before{
   box-sizing: inherit;
 }
 img{
