@@ -69,8 +69,7 @@
   border-radius: 12px;
   margin-bottom: 20px;
 }
-.modal__order {
-}
+
 .modal__button {
   padding: 14px 36px;
   background: var(--trigger-color);
